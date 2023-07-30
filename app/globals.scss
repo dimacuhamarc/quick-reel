@@ -2,15 +2,20 @@
 @import '../node_modules/bulma/bulma.sass';
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 $family-sans-serif: 'Poppins', sans-serif;
-$primary: #F95700;
+
 :root {
-  --background: #F5F3F7;
+  --background: #4A4A4A;
   --primary: #F95700;
   --secondary: #FFA473;
-  --text:#4A4A4A;
+  --text:#F5F3F7;
 }
 
 * {
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
+  color: var(--text);
+}
+
+body {
+  background-color: var(--background);
 }

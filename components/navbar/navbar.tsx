@@ -8,7 +8,7 @@ export default function navbar() {
             <div className="container">
                 <div className="navbar is-flex is-justify-content-space-around">
                     <Link href="/">Welcome to QuickReel</Link>
-                    <Link href="/">Search</Link>
+                    <Link href="/search">Search</Link>
                     <Link href="https://github.com/dimacuhamarc" rel="noopener noreferrer" target="_blank">Developer</Link>
                 </div>
             </div>
