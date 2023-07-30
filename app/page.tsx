@@ -2,7 +2,9 @@
 
 export default function Home() {
   return (
-    <div> hello world </div>
+    <div>
+      <h1>Welcome to QuickReel!</h1>
+    </div>
   )
 }
 
