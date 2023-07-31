@@ -11,10 +11,10 @@ const hero = () => {
 
     return (
         <div>
-            <section className="hero is-dark is-bold is-medium">
-                <div className="hero-body">
-                    <div className="container">
-                        <h1 className="title">Welcome to QuickReel!</h1>
+            <section className="hero is-dark is-bold is-large">
+                <div className="hero-body ">
+                    <div className="container ">
+                        <h1 className="has-text-weight-bold is-size-1">Welcome to QuickReel! 📽</h1>
                         <h2 className="subtitle">your go-to app for all things cinema</h2>
                     </div>
                 </div>
@@ -46,7 +46,16 @@ const hero = () => {
 
 
 const TopRatedFilms = () => {
-    return <h1 className="title">Top Rated Films Content</h1>;
+    return (
+        <div>
+            <div className="card">
+                <div className="card-content">
+                    <p className="title">title</p>
+                    <div className="content">content</div>
+                </div>
+            </div>
+        </div>
+    );
 };
   
 const NewReleases = () => {
