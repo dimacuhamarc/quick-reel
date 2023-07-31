@@ -1,4 +1,4 @@
-
+import hero from "../components/hero/hero";
 
 export default function Search() {
   return (

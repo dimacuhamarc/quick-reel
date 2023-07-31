@@ -1,3 +1,5 @@
+'use client';
+
 import './globals.scss'
 import main from './page.module.scss';
 import Navbar from '../components/navbar/navbar';

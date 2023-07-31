@@ -1,10 +1,8 @@
-
+import Hero from '../components/hero/hero';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to QuickReel!</h1>
-    </div>
+    <Hero/>
   )
 }
 
